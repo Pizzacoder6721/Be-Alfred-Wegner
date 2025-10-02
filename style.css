@@ -3,6 +3,10 @@ body {
   font-family: Verdana;
 }
 
+#progress{
+  margin-right: 50px;
+}
+
 .choiceButton {
   width: 30%
   height: 50px
