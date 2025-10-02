@@ -1,2 +1,2 @@
-let test = document.getElementById("test");
-test.textContent = "test";
+const progress = document.getElementById("progress");
+progress.style.width = 70px;
