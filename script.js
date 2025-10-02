@@ -1,3 +1,4 @@
 const progress = document.getElementById("progress");
-let progressnum = 4
+const questionNum = documeny.getElementById("questionNum")
+let progressnum = 4;
 progress.textContent = `${progressnum}% believability`;
