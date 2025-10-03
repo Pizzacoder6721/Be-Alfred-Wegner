@@ -25,7 +25,7 @@ choiceBtn1.onclick = function(){
     progressNum -= 3;
     progress.textContent = `${progressNum}% beliveability`;
     questionNum.textContent =`Question ${questionAmount}/10`;
-    question.textContent = "SOMEONE SET THE QUESTION";
+    question.textContent = "What was it like before";
   }
 }
 
@@ -45,7 +45,7 @@ choiceBtn2.onclick = function(){
     progressNum += 5;
     progress.textContent = `${progressNum}% beliveability`;
     questionNum.textContent =`Question ${questionAmount}/10`;
-    question.textContent = "SOMEONE SET THE QUESTION";
+    question.textContent = "What was it like before";
   }
 }
 
@@ -65,7 +65,7 @@ choiceBtn3.onclick = function(){
     progressNum -= 3;
     progress.textContent = `${progressNum}% beliveability`;
     questionNum.textContent =`Question ${questionAmount}/10`;
-    question.textContent = "SOMEONE SET THE QUESTION";
+    question.textContent = "What was it like before";
   }
 }
 /*Just saying to make sure to make it += when adding progressNum because if you don't we can't check if a question never happened.
