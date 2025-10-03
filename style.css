@@ -1,4 +1,6 @@
 body {
+  background-color: #fef8f7;
+  
   text-align: center;
   font-family: Verdana;
 }
@@ -12,7 +14,8 @@ You can change the margin if you think the gap between the belivability and ques
 .choiceButton {
   width: 30%;
   height: 50px;
-  background-color: #bfbfbf;
+  background-color: #93E26A;
+  text-color: #407D49;
   border-style: double;
   border-width:3px;
   border-radius: 10px;
