@@ -10,11 +10,16 @@ You can change the margin if you think the gap between the belivability and ques
 }
 
 .choiceButton {
-  width: 30%
-  height: 50px
-  background-color: lightgray;
+  width: 30%;
+  height: 50px;
+  background-color: #bfbfbf;
   border-style: double;
   border-width:3px;
   border-radius: 10px;
   padding:15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.choiceButton:hover{
+  background-color: #b3b3b3;
 }
