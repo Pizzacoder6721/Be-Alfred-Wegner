@@ -1,7 +1,7 @@
 const progress = document.getElementById("progress");
 const questionNum = 1;
 const choiceBtn1 = document.getElementById("choiceButton1");
-let progressNum;
+let Number(progressNum);
 //Button logic
 choiceBtn1.onclick = function(){
   if(questionNum == 1){
