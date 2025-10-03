@@ -98,6 +98,3 @@ choiceBtn3.onclick = function(){
     question.textContent = "need qeustion rn";
   }
 }
-/*Just saying to make sure to make it += when adding progressNum because if you don't we can't check if a question never happened.
-also we should make it so if you get a question wrong you lose a little believability.
-*/
