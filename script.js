@@ -62,7 +62,7 @@ choiceBtn2.onclick = function(){
   }
   else if(questionAmount == 3){
     questionAmount+= 1;
-    progressNum += 4;
+    progressNum += 3;
     progress.textContent = `${progressNum}% beliveability`;
     questionNum.textContent =`Question ${questionAmount}/10`;
     question.textContent = "put question here";
