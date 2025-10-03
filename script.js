@@ -26,6 +26,16 @@ choiceBtn1.onclick = function(){
     progress.textContent = `${progressNum}% beliveability`;
     questionNum.textContent =`Question ${questionAmount}/10`;
     question.textContent = "What was it like before";
+    choiceBtn1.textContent = "A whole bunch of islands";
+    choiceBtn2.textContent = "A supercontinent";
+    choiceBtn3.textContent = "Mickey mouse";
+  }
+  else if(questionAmount == 3){
+    questionAmount+= 1;
+    progressNum -= 3;
+    progress.textContent = `${progressNum}% beliveability`;
+    questionNum.textContent =`Question ${questionAmount}/10`;
+    question.textContent = "need qeustion rn";
   }
 }
 
@@ -46,6 +56,16 @@ choiceBtn2.onclick = function(){
     progress.textContent = `${progressNum}% beliveability`;
     questionNum.textContent =`Question ${questionAmount}/10`;
     question.textContent = "What was it like before";
+    choiceBtn1.textContent = "A whole bunch of islands";
+    choiceBtn2.textContent = "A supercontinent";
+    choiceBtn3.textContent = "Mickey mouse";
+  }
+  else if(questoinAmount == 3){
+    questionAmount+= 1;
+    progressNum += 5;
+    progress.textContent = `${progressNum}% beliveability`;
+    questionNum.textContent =`Question ${questionAmount}/10`;
+    question.textContent = "put question here";
   }
 }
 
@@ -66,6 +86,16 @@ choiceBtn3.onclick = function(){
     progress.textContent = `${progressNum}% beliveability`;
     questionNum.textContent =`Question ${questionAmount}/10`;
     question.textContent = "What was it like before";
+    choiceBtn1.textContent = "A whole bunch of islands";
+    choiceBtn2.textContent = "A supercontinent";
+    choiceBtn3.textContent = "Mickey mouse";
+  }
+  else if(questionAmount == 3){
+    questionAmount+= 1;
+    progressNum -= 3;
+    progress.textContent = `${progressNum}% beliveability`;
+    questionNum.textContent =`Question ${questionAmount}/10`;
+    question.textContent = "need qeustion rn";
   }
 }
 /*Just saying to make sure to make it += when adding progressNum because if you don't we can't check if a question never happened.
