@@ -8,7 +8,7 @@ body {
 You can change the margin if you think the gap between the belivability and question num is too much
 */
 #progress{
-  margin-right: 50px;
+  margin-right: 40px;
 }
 
 .choiceButton {
