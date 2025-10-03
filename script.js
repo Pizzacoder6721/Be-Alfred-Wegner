@@ -9,7 +9,7 @@ choiceBtn1.onclick = function(){
     questionNum += 1;
     progressNum += 1;
     progress.textContent = `${progressNum}% beliveability`
-    question.text
+    question.textContent =`Question ${questionNum}/10`
   }
 }
 /*Just saying to make sure to make it += when adding progressNum because if you don't we can't check if a question never happened.
