@@ -16,7 +16,7 @@ choiceBtn1.onclick = function(){
     progressNum += 5;
     progress.textContent = `${progressNum}% beliveability`;
     questionNum.textContent =`Question ${questionAmount}/10`;
-    question.textContent = "What do you think causes it?(what wegner thought, not actual answer);
+    question.textContent = "What do you think causes it?(what wegner thought, not actual answer)";
     choiceBtn1.textContent = "Tornado's pull it each year";
   }
   else if(questionAmount == 2){
@@ -34,7 +34,7 @@ choiceBtn2.onclick = function(){
     progressNum -= 3;
     progress.textContent = `${progressNum}% beliveability`;
     questionNum.textContent =`Question ${questionAmount}/10`;
-    question.textContent = "What do you think causes it?(what wegner thought, not actual answer);
+    question.textContent = "What do you think causes it?(what wegner thought, not actual answer)";
     choiceBtn2.textContent = "The earth's rotation"
   }
   else if(questionAmount == 2){
@@ -52,7 +52,7 @@ choiceBtn3.onclick = function(){
     progressNum -= 3;
     progress.textContent = `${progressNum}% beliveability`;
     questionNum.textContent =`Question ${questionAmount}/10`;
-    question.textContent = "What do you think causes it?(what wegner thought, not actual answer);
+    question.textContent = "What do you think causes it?(what wegner thought, not actual answer)";
     choiceBtn3.textContent = "Ocean currents push the land";
   }
   else if(questionAmount == 2){
