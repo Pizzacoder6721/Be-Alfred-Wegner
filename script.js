@@ -12,7 +12,7 @@ const choiceBtn3 = document.getElementById("choiceButton3");
 choiceBtn1.onclick = function(){
   if(questionAmount == 1){
     questionAmount += 1;
-    progressNum += 1;
+    progressNum += 5;
     progress.textContent = `${progressNum}% beliveability`
     questionNum.textContent =`Question ${questionAmount}/10`
   }
@@ -21,7 +21,7 @@ choiceBtn1.onclick = function(){
 choiceBtn2.onclick = function(){
   if(questionAmount == 1){
     questionAmount += 1;
-    progressNum -= 1;
+    progressNum -= 3;
     progress.textContent = `${progressNum}% beliveability`
     questionNum.textContent =`Question ${questionAmount}/10`
   }
@@ -30,7 +30,7 @@ choiceBtn2.onclick = function(){
 choiceBtn3.onclick = function(){
   if(questionAmount == 1){
     questionAmount+= 1;
-    progressNum -= 1;
+    progressNum -= 3;
     progress.textContent = `${progressNum}% beliveability`
     questionNum.textContent =`Question ${questionAmount}/10`
   }
