@@ -34,7 +34,9 @@ choiceBtn2.onclick = function(){
     progress.textContent = `${progressNum}% beliveability`;
     questionNum.textContent =`Question ${questionAmount}/10`;
     question.textContent = "What do you think causes it?(what wegner thought, not actual answer)";
-    choiceBtn2.textContent = "The earth's rotation"
+    choiceBtn1.textContent = "Tornado's pull it each year";
+    choiceBtn2.textContent = "The earth's rotation";
+    choiceBtn3.textContent = "Ocean currents push the land";
   }
   else if(questionAmount == 2){
     questionAmount+= 1;
