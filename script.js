@@ -16,7 +16,6 @@ choiceBtn1.onclick = function(){
     progressNum += 5;
     progress.textContent = `${progressNum}% beliveability`;
     questionNum.textContent =`Question ${questionAmount}/10`;
-    question.textContent = "What do you think causes it?(what wegner thought, not actual answer)";
     choiceBtn1.textContent = "Tornado's pull it each year";
   }
   else if(questionAmount == 2){
