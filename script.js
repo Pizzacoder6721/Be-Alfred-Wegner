@@ -6,7 +6,7 @@ let progressNum;
 choiceBtn1.onclick = function(){
   if(questionNum == 1){
     progressNum += 1;
-    progress.textContent = `{progressNum}% beliveability`
+    progress.textContent = `${progressNum}% beliveability`
   }
 }
 /*Just saying to make sure to make it += when adding progressNum because if you don't we can't check if a question never happened.
