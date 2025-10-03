@@ -60,7 +60,7 @@ choiceBtn2.onclick = function(){
     choiceBtn2.textContent = "A supercontinent";
     choiceBtn3.textContent = "Mickey mouse";
   }
-  else if(questoinAmount == 3){
+  else if(questionAmount == 3){
     questionAmount+= 1;
     progressNum += 4;
     progress.textContent = `${progressNum}% beliveability`;
