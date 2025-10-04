@@ -1,3 +1,21 @@
+/*
+
+
+
+
+
+
+
+
+check out this:
+https://pizzacoder6721.github.io/sprite-practice/
+
+this is definitly not self-promo
+
+
+
+
+*/
 const progress = document.getElementById("progress");
 const questionn = document.getElementById("question")
 const questionNum = document.getElementById("questionNum")
