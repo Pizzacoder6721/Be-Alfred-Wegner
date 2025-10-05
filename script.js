@@ -41,7 +41,7 @@ choiceBtn1.onclick = function(){
   }
   else if(questionAmount == 2){
     questionAmount += 1;
-    progressNum -= 3;
+    progressNum -= 5;
     progress.textContent = `${progressNum}% beliveability`;
     questionNum.textContent =`Question ${questionAmount}/6`;
     question.textContent = "What was it like before";
