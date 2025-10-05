@@ -119,7 +119,7 @@ choiceBtn3.onclick = function(){
     choiceBtn3.textContent = "Ocean currents push the land";
   }
   else if(questionAmount == 2){
-    questionAmoun += 1;
+    questionAmount += 1;
     progressNum -= 3;
     progress.textContent = `${progressNum}% beliveability`;
     questionNum.textContent =`Question ${questionAmount}/10`;
