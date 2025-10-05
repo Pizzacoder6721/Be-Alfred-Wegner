@@ -79,10 +79,13 @@ choiceBtn1.onclick = function(){
     choiceBtn3.textContent = "Coal-forming swapms were found in cold conditions, but they require tropical conditions";
   }
   else if(questionAmount == 6){
+    choiceBtn1.style.display = 'none';
+    choiceBtn2.style.display = 'none';
+    choiceBtn3.style.display = 'none';
+    questionAmount += 1
     progressNum -= 5;
     progressNum += 75;
     progress.textContent = `${progressNum}% beliveability`;
-    questionNum.textContent =`Question ${questionAmount}/6`;
     question.textContent = "You have died, but Harry Hess has proved your theory, and your destiny is fulfilled";
   }
 }
@@ -140,10 +143,13 @@ choiceBtn2.onclick = function(){
     choiceBtn3.textContent = "Coal-forming swapms were found in cold conditions, but they require tropical conditions";
   }
   else if(questionAmount == 6){
+    choiceBtn1.style.display = 'none';
+    choiceBtn2.style.display = 'none';
+    choiceBtn3.style.display = 'none';
+    questionAmount += 1;
     progressNum -= 5;
     progressNum += 75;
     progress.textContent = `${progressNum}% beliveability`;
-    questionNum.textContent =`Question ${questionAmount}/6`;
     question.textContent = "You have died, but Harry Hess has proved your theory, and your destiny is fulfilled";
   }
 }
@@ -200,10 +206,13 @@ choiceBtn3.onclick = function(){
     choiceBtn3.textContent = "Coal-forming swapms were found in cold conditions, but they require tropical conditions";    
   }
   else if(questionAmount == 6){
+    choiceBtn1.style.display = 'none';
+    choiceBtn2.style.display = 'none';
+    choiceBtn3.style.display = 'none';
+    questionAmount += 1
     progressNum += 3;
     progressNum += 75;
     progress.textContent = `${progressNum}% beliveability`;
-    questionNum.textContent =`Question ${questionAmount}/6`;
     question.textContent = "You have died, but Harry Hess has proved your theory, and your destiny is fulfilled";
   }
 }
