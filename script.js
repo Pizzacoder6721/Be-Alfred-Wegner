@@ -1,5 +1,6 @@
 /*
-
+I finished it cuz u didn't get on
+u can add more questions if u wany
 
 
 
