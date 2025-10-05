@@ -201,7 +201,7 @@ choiceBtn3.onclick = function(){
   }
   else if(questionAmount == 6){
     progressNum += 3;
-    ptogressNum += 75;
+    progressNum += 75;
     progress.textContent = `${progressNum}% beliveability`;
     questionNum.textContent =`Question ${questionAmount}/6`;
     question.textContent = "You have died, but Harry Hess has proved your theory, and your destiny is fulfilled";
