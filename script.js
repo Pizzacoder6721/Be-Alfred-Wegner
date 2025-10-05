@@ -65,7 +65,7 @@ choiceBtn1.onclick = function(){
     questionNum.textContent =`Question ${questionAmount}/10`;
     question.textContent = "Ok, but this theory is still too stupid";
     choiceBtn1.textContent = "Evidence of glaciers were found nere the equator, which shouldn't be possible due to the heat"
-    choiceBtn2.textContnet = "How else would the clouds move"
+    choiceBtn2.textContent = "How else would the clouds move"
     choiceBtn3.textContent = "There are European elaphants and Asian ones"
   }
   else if(questionAmount == 5){
@@ -115,7 +115,7 @@ choiceBtn2.onclick = function(){
     questionNum.textContent =`Question ${questionAmount}/10`;
     question.textContent = "Ok, but this theory is still too stupid";
     choiceBtn1.textContent = "Evidence of glaciers were found nere the equator, which shouldn't be possible due to the heat";
-    choiceBtn2.textContnet = "How else would the clouds move";
+    choiceBtn2.textContent = "How else would the clouds move";
     choiceBtn3.textContent = "There are European elaphants and Asian ones";
   }
   else if(questionAmount == 5){
@@ -165,7 +165,7 @@ choiceBtn3.onclick = function(){
     questionNum.textContent =`Question ${questionAmount}/10`;
     question.textContent = "Ok, but this theory is still too stupid";
     choiceBtn1.textContent = "Evidence of glaciers were found nere the equator, which shouldn't be possible due to the heat"
-    choiceBtn2.textContnet = "How else would the clouds move"
+    choiceBtn2.textContent = "How else would the clouds move"
     choiceBtn3.textContent = "There are European elaphants and Asian ones"
   }
   else if(questionAmount == 5){
