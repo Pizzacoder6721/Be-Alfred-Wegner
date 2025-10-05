@@ -5,13 +5,13 @@ body {
   font-family: Verdana;
 }
 #wegnerImage{
-  width: 32px;
-  height: 32px;
+  width: 300px;
+  height: 300px;
   background-image: url('wegner.jpg'); 
   background-size: 100% 100%;
   position: absolute;
-  top: 50px;
-  left: 50px;
+  bottom: 0px;
+  left: 0px;
 }
 /*
 You can change the margin if you think the gap between the belivability and question num is too much
