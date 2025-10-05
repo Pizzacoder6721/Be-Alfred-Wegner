@@ -73,7 +73,7 @@ choiceBtn1.onclick = function(){
     progressNum += 6;
     progress.textContent = `${progressNum}% beliveability`;
     questionNum.textContent =`Question ${questionAmount}/10`;
-    question.textContent = "put question here";
+    question.textContent = "Your theory is getting more believable";
   }
 }
 
