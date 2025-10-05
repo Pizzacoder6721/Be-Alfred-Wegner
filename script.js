@@ -199,9 +199,9 @@ choiceBtn3.onclick = function(){
     choiceBtn2.textContent = "Salt collected in the sea from moving continents";
     choiceBtn3.textContent = "Coal-forming swapms were found in cold conditions, but they require tropical conditions";    
   }
-    else if(questionAmount == 6){
+  else if(questionAmount == 6){
     questionAmount += 1;
-    progressNum += 3;
+    progressNum -= 5;
     progress.textContent = `${progressNum}% beliveability`;
     questionNum.textContent =`Question ${questionAmount}/6`;
     question.textContent = "You have died, but Harry Hess has proved your theory, and your destiny is fulfilled";
