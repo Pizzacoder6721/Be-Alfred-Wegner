@@ -138,7 +138,7 @@ choiceBtn2.onclick = function(){
     choiceBtn1.textContent = "Cave writings show that Australia used to be next to Europe";
     choiceBtn2.textContent = "Salt collected in the sea from moving continents";
     choiceBtn3.textContent = "Coal-forming swapms were found in cold conditions, but they require tropical conditions";
-}
+  }
   else if(questionAmount == 6){
     questionAmount += 1;
     progressNum -= 5;
@@ -207,7 +207,3 @@ choiceBtn3.onclick = function(){
     question.textContent = "You have died, but Harry Hess has proved your theory, and your destiny is fulfilled";
   }
 }
-/*Heres some ifromation that can be used for questions.
-  1.
-ancient coal-forming swamps (requiring tropical conditions) were found in frigid regions. This suggested that continents had moved to different climatic zones over time. 
-  */
