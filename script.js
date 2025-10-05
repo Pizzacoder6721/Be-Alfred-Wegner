@@ -63,7 +63,17 @@ choiceBtn1.onclick = function(){
     progressNum -= 3;
     progress.textContent = `${progressNum}% beliveability`;
     questionNum.textContent =`Question ${questionAmount}/10`;
-    question.textContent = "Put question here";
+    question.textContent = "Ok, but this theory is still too stupid";
+    choiceBtn1.textContent = "Evidence of glaciers were found nere the equator, which shouldn't be possible due to the heat"
+    choiceBtn2.textContnet = "How else would the clouds move"
+    choiceBtn3.textContent = "There are European elaphants and Asian ones"
+  }
+  else if(questionAmount == 5){
+    questionAmount += 1;
+    progressNum += 6;
+    progress.textContent = `${progressNum}% beliveability`;
+    questionNum.textContent =`Question ${questionAmount}/10`;
+    question.textContent = "put question here";
   }
 }
 
@@ -100,10 +110,20 @@ choiceBtn2.onclick = function(){
   }
   else if(questionAmount == 4){
     questionAmount += 1;
-    progressNum -= 3;
+    progressNum -= 5;
     progress.textContent = `${progressNum}% beliveability`;
     questionNum.textContent =`Question ${questionAmount}/10`;
-    question.textContent = "Put question here";
+    question.textContent = "Ok, but this theory is still too stupid";
+    choiceBtn1.textContent = "Evidence of glaciers were found nere the equator, which shouldn't be possible due to the heat";
+    choiceBtn2.textContnet = "How else would the clouds move";
+    choiceBtn3.textContent = "There are European elaphants and Asian ones";
+  }
+  else if(questionAmount == 5){
+    questionAmount += 1;
+    progressNum -= 5;
+    progress.textContent = `${progressNum}% beliveability`;
+    questionNum.textContent =`Question ${questionAmount}/10`;
+    question.textContent = "put question here";
   }
 }
 
@@ -120,7 +140,7 @@ choiceBtn3.onclick = function(){
   }
   else if(questionAmount == 2){
     questionAmount += 1;
-    progressNum -= 3;
+    progressNum -= 5;
     progress.textContent = `${progressNum}% beliveability`;
     questionNum.textContent =`Question ${questionAmount}/10`;
     question.textContent = "What was it like before";
@@ -130,7 +150,7 @@ choiceBtn3.onclick = function(){
   }
   else if(questionAmount == 3){
     questionAmount += 1;
-    progressNum -= 3;
+    progressNum -= 5;
     progress.textContent = `${progressNum}% beliveability`;
     questionNum.textContent =`Question ${questionAmount}/10`;
     question.textContent = "Ok but that isn't enough to prove anything";
@@ -143,15 +163,20 @@ choiceBtn3.onclick = function(){
     progressNum += 3;
     progress.textContent = `${progressNum}% beliveability`;
     questionNum.textContent =`Question ${questionAmount}/10`;
-    question.textContent = "Put question here";
+    question.textContent = "Ok, but this theory is still too stupid";
+    choiceBtn1.textContent = "Evidence of glaciers were found nere the equator, which shouldn't be possible due to the heat"
+    choiceBtn2.textContnet = "How else would the clouds move"
+    choiceBtn3.textContent = "There are European elaphants and Asian ones"
+  }
+  else if(questionAmount == 5){
+    questionAmount += 1;
+    progressNum -= 3;
+    progress.textContent = `${progressNum}% beliveability`;
+    questionNum.textContent =`Question ${questionAmount}/10`;
+    question.textContent = "put question here";
   }
 }
 /*Heres some ifromation that can be used for questions.
   1.
-  Paleoclimatic Evidence: He noted that evidence of ancient glaciers, such as grooves and rock deposits, were found near the equator, 
-  and ancient coal-forming swamps (requiring tropical conditions) were found in frigid regions. This suggested that continents had moved to different climatic zones over time.
-
-  2.
-  He found identical fossils of ancient plants and animals on continents that are now widely separated. For example, 
-  fossils of the freshwater reptile Mesosaurus were found in both South America and Africa, indicating these landmasses were once joined. 
+ancient coal-forming swamps (requiring tropical conditions) were found in frigid regions. This suggested that continents had moved to different climatic zones over time. 
   */
