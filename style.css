@@ -1,5 +1,5 @@
 body {
-  background-color: #f0e6ef;
+  background-color: #cad2c5;
   
   text-align: center;
   font-family: "Verdana", Arial;
@@ -32,8 +32,8 @@ You can change the margin if you think the gap between the belivability and ques
 .choiceButton {
   width: 33%;
   height: 50px;
-  background-color: #efc3e6;
-  color: #9c89b8;
+  background-color: #52796f;
+  color: #2f3e46;
   border-style: double;
   border-width:3px;
   border-radius: 10px;
@@ -42,5 +42,5 @@ You can change the margin if you think the gap between the belivability and ques
   transition: background-color 0.3s;
 }
 .choiceButton:hover{
-  background-color: #f0a6ca;
+  background-color: #84a98c;
 }
